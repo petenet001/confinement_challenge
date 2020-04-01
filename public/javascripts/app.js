@@ -21,6 +21,8 @@ window.onload = function() {
       idEl.getElementsByClassName('hours')[0].innerHTML = hours;
       idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
       idEl.getElementsByClassName('seconds')[0].innerHTML = secs;
+      
+      document.getElementById("jNbre").innerHTML = (30 - days);
     
       clearTimeout(countDownToTime.interval);
       countDownToTime.interval = setTimeout(function(){ countDownToTime(countTo, id); },1000);
