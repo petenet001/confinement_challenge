@@ -28,5 +28,5 @@ window.onload = function() {
       countDownToTime.interval = setTimeout(function(){ countDownToTime(countTo, id); },1000);
 
       var aud = document.getElementById("myAudio");
-      aud.volume = 0.5; // default 1 means 100%
+      aud.volume = 0.4; // 1 signifie le volume à 100%
     }
